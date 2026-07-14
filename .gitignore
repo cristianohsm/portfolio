@@ -1,0 +1,13 @@
+.env
+.env.*
+.vercel/
+node_modules/
+*.log
+logs/
+backups/
+secrets/
+credentials/
+*.key
+*.pem
+.DS_Store
+Thumbs.db
