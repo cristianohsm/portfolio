@@ -6,7 +6,7 @@
 - Branch: `main`
 - Visibilidade: pública
 - Projeto Vercel: `cristiano-portfolio`
-- URL de produção: `https://cristiano-portfolio.vercel.app/`
+- URL de produção: `https://cristiano-portfolio-five.vercel.app/`
 
 O GitHub público é a fonte oficial do código deste portfólio.
 
