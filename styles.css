@@ -150,8 +150,8 @@ ul { margin-top: 0; }
 .contact-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 12px; }
 .button-light { color: var(--navy-900); background: var(--white); }
 .button-outline-light { color: var(--white); border-color: rgba(255,255,255,.65); }
-.button-disabled { color: rgba(255,255,255,.72); border-color: rgba(255,255,255,.22); cursor: not-allowed; }
-.button-disabled:hover { transform: none; }
+.pdf-badge { padding: 3px 5px; color: var(--navy-900); background: var(--blue-400); border-radius: 4px; font-size: .67rem; font-weight: 900; letter-spacing: .05em; }
+.contact-actions .resume-description { flex-basis: 100%; max-width: 630px; margin: 4px 0 0; color: #c7dfec; font-size: .88rem; line-height: 1.55; text-align: right; }
 
 .site-footer { color: #a9bfcd; background: var(--navy-950); }
 .footer-inner { min-height: 90px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
@@ -180,6 +180,7 @@ ul { margin-top: 0; }
   .section-heading > p { max-width: 620px; }
   .projects-grid { grid-template-columns: 1fr; }
   .contact-actions { justify-content: flex-start; }
+  .contact-actions .resume-description { text-align: left; }
 }
 
 @media (max-width: 580px) {

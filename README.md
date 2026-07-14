@@ -12,7 +12,7 @@ O GitHub público é a fonte oficial do código deste portfólio. Toda mudança 
 
 - `index.html`: conteúdo, semântica e metadados do site;
 - `styles.css`: identidade visual e responsividade;
-- `assets/`: foto profissional e favicon;
+- `assets/`: foto profissional, favicon e documentos públicos;
 - `robots.txt` e `sitemap.xml`: indexação;
 - `CONTINUIDADE.md`: operação, atualização, testes e rollback.
 
@@ -35,6 +35,12 @@ Os textos ficam em `index.html`. Preserve a estrutura semântica, os textos alte
 O site usa `assets/cristiano-silva.png`. A imagem publicada é uma cópia otimizada para web; o arquivo original deve permanecer preservado fora do repositório.
 
 Ao substituir a foto, mantenha o nome do arquivo, o enquadramento quadrado e o texto alternativo existente. Nunca utilize imagens de terceiros sem origem e autorização confirmadas.
+
+## Currículo
+
+O currículo publicado fica em `assets/docs/curriculo-cristiano-silva.pdf`.
+
+Para atualizá-lo, substitua o PDF nesse mesmo local e mantenha obrigatoriamente o nome `curriculo-cristiano-silva.pdf`, preservando o caminho usado pelo site. Valide o arquivo antes de criar o commit e confirme o link após o deploy. Arquivos editáveis, como DOCX, não devem ser publicados no repositório.
 
 ## Deploy
 

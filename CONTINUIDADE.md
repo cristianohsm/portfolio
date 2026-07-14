@@ -24,6 +24,16 @@ Toda mudança validada deve ser enviada ao repositório e não pode existir some
 
 Nunca usar `force push` e nunca manter uma correção somente no deploy.
 
+## Currículo profissional
+
+- Status: ativo;
+- caminho público: `assets/docs/curriculo-cristiano-silva.pdf`;
+- botão de visualização e download: habilitado na seção de contato.
+
+Para atualizar o currículo, substitua o PDF no mesmo caminho, sem alterar o nome do arquivo e sem publicar fontes editáveis como DOCX. Valide o documento e o link localmente, crie um commit, faça push para `origin/main` e gere um novo deploy no projeto Vercel existente. Confirme HTTP 200 para o site e para o PDF.
+
+Em caso de problema, reverta a mudança por meio de um novo commit baseado no commit anterior estável, faça push normal e publique novamente. Não reescreva o histórico.
+
 ## Testes mínimos
 
 - HTML sem erros estruturais relevantes;
@@ -49,6 +59,5 @@ Não reescrever o histórico e não usar `force push`.
 ## Pendências
 
 - Confirmar a situação da formação em Administração;
-- criar currículo público atualizado;
 - conectar domínio próprio;
 - criar projetos demonstrativos públicos.
